@@ -41,6 +41,7 @@ public class HomeworkMain02 {
 				
 			}
 			//System.out.println(n);
+			
 			//num[i] = 25 ==> 52
 //			int n10 = nums[i] / 10;
 //			int n1 = nums[i] % 10;
