@@ -30,11 +30,22 @@ public class HomeworkMain02 {
 		System.out.println();
 		
 		System.out.println("< REVERSE >");
+		//3자리나 4자리는 루프 써야한다.
+		// 452 -> 254
+		// 1) 2
+		// 2) 20 + 5 = 25
+		// 3) 250 + 4 = 254
 		for(int i=nums.length-1; i>=0; i--) {
+			while(i != 0) {
+				//int n = nums[i]/
+				
+			}
+			//System.out.println(n);
 			//num[i] = 25 ==> 52
-			int n10 = nums[i] / 10;
-			int n1 = nums[i] % 10;
-			System.out.print(n1*10 + n10 + "\t"); 
+//			int n10 = nums[i] / 10;
+//			int n1 = nums[i] % 10;
+//			System.out.print(n1*10 + n10 + "\t"); 
+			
 		}
 		
 		
