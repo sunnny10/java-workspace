@@ -6,12 +6,15 @@ import java.util.Scanner;
  * 10 엔터 20 엔터 30 일케 들어가니까 10 보고 공백나오니까 num에 넣고, 입력받으려고 보니까 버퍼에 이미 값이 있으므로 키보드로부터 입력 안받고 버퍼에서 가져다 쓴다.
  */
 
+// 버퍼를 비울 경우 10 20 일케 넣으면 10만 ㄷ
+
 public class a02 {
 
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		/*
 		System.out.print("실수 : ");
 		// 해결방법 1
 		double f = Double.parseDouble(sc.nextLine());
@@ -26,32 +29,37 @@ public class a02 {
 		
 		System.out.print("정수 : ");
 		int num2 = Integer.parseInt(sc.nextLine()); //"123" -> 정수 123 으로 변환시켜줘야 한다.
-		
+		*/
 		
 		
 		// next()는 스페이스까지만 인식.
 		// ....
 		
 		
+		/*
 		System.out.print("문자열 : ");
 		String str = sc.nextLine(); // 엔터나올 때까지 받으므로 엔터까지 소비.
 		
 		// 일케 하면 정수에서 엔터 이미 받으니까 nextline에서 입력받을 때 영향을 받음.
 		// 그래서 정수나 실수를 받고 나서 엔터가 남아있으니까 버퍼를 비워줘야 한다. -> sc.nextLine(); 일케 해줘야함.
-
+		 */
 		
 		
 		
-		/*
-		System.out.print("첫번째 정수 : ");
-		int num = sc.nextInt();
+		
+//		System.out.print("첫번째 정수 : ");
+//		int num = sc.nextInt();
+//		sc.nextLine();
 		
 		System.out.print("두번째 정수 : ");
 		int num2 = sc.nextInt();
+
 		
 		System.out.print("세번째 정수 : ");
-		int num3 = sc.nextInt();
-		*/
+		String num3 = sc.next();
+
+		
+		System.out.println( num2 + "," + num3);
 	}
 
 }

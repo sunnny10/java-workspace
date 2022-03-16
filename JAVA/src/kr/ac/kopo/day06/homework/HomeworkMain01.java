@@ -41,6 +41,8 @@ import java.util.Scanner;
 
 			버퍼로 일어난 문제 해결 방법 ? : 그런데 버퍼 문제 때문에 nextint, nextdouble 잘 안 쓴다.
 				-> 정수 입력 받을 때 sc.nextline 써주거나 그냥 처음부터 sc.nextline으로 문자열로 받는다.
+				
+			버퍼에 있는 것을 문자열로 입력받는다. 변수에 저장 안하더라도 버퍼에 있는 것을 정수나 문자열 유형을 변환시키는 것을 버퍼가 소비한다고 표현.
 	 		
  	next()는 단어 단위(스페이스 단위)로 입력 받음. -> 그래서 띄어쓰기(스페이스)하는 단어일 경우 제대로 값 못 받음.
  	
@@ -74,9 +76,22 @@ public class HomeworkMain01 {
 			iceArr[i].name = sc.nextLine();	// 위에서 객체 생성 안하면 nullpointexception 뜬다. 
 
 			System.out.print("아이스크림 가격 : ");
-			iceArr[i].price = sc.nextInt();
+			iceArr[i].price = Integer.parseInt(sc.nextLine());
+		
 		}
 		
+		System.out.println("< " + iceArr.length + "개 아이스크림 구매정보 출력 >");
+		System.out.println("번호\t아이스크림명\t아이스크림가격");
+		
+		
+		
+		/*int no=0;
+		//ice만 찍으면 주소값만 찍힌다.
+		//ice에 0번지 대입, 1번지 대입...
+		for(Icecream ice : iceArr) {
+			System.out.println(++no + "\t" + ice.name + "\t" + ice.price);
+		}
+		*/
 	}
 
 }
