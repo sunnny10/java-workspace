@@ -11,6 +11,13 @@ public class a02 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("실수 : ");
+		// 해결방법 1
+		double f = Double.parseDouble(sc.nextLine());
+		// 해결방법 2
+		double f2 = sc.nextDouble();
+		sc.nextLine();
 			
 		System.out.print("정수 : ");
 		int num = sc.nextInt();
