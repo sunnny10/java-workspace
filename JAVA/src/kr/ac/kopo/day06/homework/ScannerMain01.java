@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 // 버퍼를 비울 경우 10 20 일케 넣으면 10만 ㄷ
 
-public class a02 {
+public class ScannerMain01 {
 
 	public static void main(String[] args) {
 		
