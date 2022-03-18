@@ -1,4 +1,4 @@
-package kr.ac.kopo.day06;
+package kr.ac.kopo.day05;
 
 //프로그램 = 하나의 실행클래스 + 여러개의 참조클래스
 // 실행클래스

@@ -1,4 +1,4 @@
-package kr.ac.kopo.day06.homework;
+package kr.ac.kopo.day06;
 
 // 지금 이것은 절자지향의 메소드 방식
 
@@ -16,7 +16,6 @@ package kr.ac.kopo.day06.homework;
  		문장;
  	}
  */
-
 public class MethodMain01 {
 						 // char ch = '*', int cnt = '10'
 	static int printStar(char ch, int cnt) {
@@ -51,7 +50,6 @@ public class MethodMain01 {
 	public static void main(String[] args) {
 		
 		//aaa()
-		
 		
 		// 참고) "" 는 string
 				 //파라미터(매개변수) : 피호출자로 넘겨주는 값????????

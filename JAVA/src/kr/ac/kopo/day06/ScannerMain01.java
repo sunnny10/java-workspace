@@ -1,4 +1,4 @@
-package kr.ac.kopo.day06.homework;
+package kr.ac.kopo.day06;
 
 import java.util.Scanner;
 /*

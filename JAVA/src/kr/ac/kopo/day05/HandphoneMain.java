@@ -1,4 +1,4 @@
-package kr.ac.kopo.day06;
+package kr.ac.kopo.day05;
 
 // 추상화시켜서 클래스로 설계시킨다.
 

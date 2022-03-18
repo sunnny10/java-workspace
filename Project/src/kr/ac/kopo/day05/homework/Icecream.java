@@ -1,4 +1,4 @@
-package kr.ac.kopo.day06.homework;
+package kr.ac.kopo.day05.homework;
 
 // 참조 클래스
 public class Icecream {

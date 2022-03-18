@@ -1,4 +1,4 @@
-package kr.ac.kopo.day06;
+package kr.ac.kopo.day05;
 
 public class ArrayMain08 {
 

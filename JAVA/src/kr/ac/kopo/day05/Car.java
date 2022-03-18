@@ -1,4 +1,4 @@
-package kr.ac.kopo.day06;
+package kr.ac.kopo.day05;
 
 /*
  * 자동차라는 클래스를 만들고 싶다. -> 정의/설계
