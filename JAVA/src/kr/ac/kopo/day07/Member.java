@@ -16,17 +16,25 @@ public class Member {
 		//this("알수없음", -1, "알수없음");
 		//생성자가 실행이 되었는 때 그 내부에서 오버로딩된 생성자를 또 호출하고 싶을 때 그 때 this()를 쓴다.
 		//this() 일케 하면 ... 그 때 각 생성자에 생성된 글자를 다 건드려야 하기 때문에 구ㅣ찮다?
+		
+		//this("알수없음");
 	}
 	
 	//이 n이 먼지 몰라... 매개변수의 뭐를 초기화하는지 알수없다.
 	Member(String name){
+		/*
 		this.name = name;
 		//구분하 필요가 없으므로 this를 생략해도 되지만 써주는 게 좋다.
 		this.age = -1;
 		this.bloodType = "알 수 없음";
+		*/
+		// 중복코드 여러개 써야한다. "알 수 없음" 이거 고치려면 다 고쳐야함. 불편...
+		this(name, -1, "알 수 없음");
+		
+		//this(name, -1);
 	}
 	
-	Member(String n, int a){
+	Member(String name, int age){
 		// 자바에서는 생성자를 호출할 때는 new를 썼을 때만 가능하다.
 		// 자기 생성자 안에서 다른 생성자를 호출하고 싶을 때는 일반 메소드랑 다르게 this를 사용한다.
 		// this() 는 생성자 맨 첫라인에서만 사용가능.
@@ -38,6 +46,10 @@ public class Member {
 		age = a;
 		bloodType = "알 수 없음";
 		*/
+		
+		this(name, age, "알 수없음");	// 매개변수 3개짜리 호출.
+		
+		//this(name, age, "알수없음");
 	}
 	
 	Member(String name, int age, String bloodType){
