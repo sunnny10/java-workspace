@@ -45,7 +45,6 @@ class MyString extends String{
 public class FinalMain {
 
 	public static void main(String[] args) {
-
 		/*
 		Random r = new MyRandom();
 //		int random = r.nextInt(90) + 10;
