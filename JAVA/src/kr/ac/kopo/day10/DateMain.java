@@ -11,10 +11,18 @@ public class DateMain {
 	
 	public static void main(String[] args) {
 		
+		Date d = new Date(2020202030334L);
+		System.out.println(d);
+		
+		Calendar c = Calendar.getInstance();
+		c.setTime(d);
+		System.out.println(c);
+		
 //		String pattern = "yyyy-MM-dd hh:mm:ss(E)";
 		String pattern = "yyyy년도 MM월 dd일 hh시 mm분 ss초(E요일)";
 		SimpleDateFormat sdf = new SimpleDateFormat(pattern);
 		System.out.println(sdf.format(new Date()));
+		System.out.println(sdf.format(c.getTime()));
 		
 		
 		
