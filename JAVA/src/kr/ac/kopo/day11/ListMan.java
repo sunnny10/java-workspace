@@ -34,6 +34,7 @@ public class ListMan {
 		list.add("three");
 		list.add("four");
 		list.add("one");
+		list.add(2, "five");
 		
 		//0부터 몇번지까지 있더라 알려주는 것
 		System.out.println("전체 원소의 개수 : " + list.size() + "개");
