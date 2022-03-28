@@ -15,7 +15,6 @@ import java.util.Set;
  *
  */
 
-
 class Member {
 	private String name;
 	private String phone;
